@@ -1,1 +1,100 @@
-hello there
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #0366d6;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .project-card h3 {
+            margin-top: 0;
+            color: #0366d6;
+        }
+        .project-card p {
+            color: #586069;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #586069;
+            font-size: 0.9em;
+        }
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My GitHub Projects</h1>
+        <p>Welcome to my GitHub Pages site. Here you can find links to my various projects.</p>
+    </header>
+
+    <main>
+        <div class="project-grid">
+            <!-- Project cards - Add your GitHub Pages projects here -->
+            <a href="https://simproving.github.io/receptie/" class="project-card">
+                <h3>Receptie</h3>
+              
+            </a>
+            
+            <a href="https://simproving.github.io/argint/" class="project-card">
+                <h3>Argint</h3>
+               
+            </a>
+            
+            <a href="https://simproving.github.io/avontext/" class="project-card">
+                <h3>Avontext</h3>
+               
+            </a>
+            
+            <!-- Add more project cards as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 | <a href="https://github.com/simproving">GitHub Profile</a></p>
+    </footer>
+</body>
+</html> 
